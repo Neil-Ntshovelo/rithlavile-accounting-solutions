@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -36,13 +37,7 @@ const Footer = () => {
             </p>
 
             <div className="flex gap-5">
-              <a href="#" className="hover:text-cyan-700 transition">
-                <Facebook size={18} />
-              </a>
-
-              <a href="#" className="hover:text-cyan-700 transition">
-                <Linkedin size={18} />
-              </a>
+              
 
               <a
                 href="https://wa.me/27833468884"
@@ -50,7 +45,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="hover:text-green-600 transition"
               >
-                <MessageCircle size={18} />
+                <FaWhatsapp size={18} />
               </a>
             </div>
           </div>
