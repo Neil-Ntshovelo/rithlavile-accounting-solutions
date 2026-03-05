@@ -8,7 +8,6 @@ import {
   FaBalanceScale,
   FaGraduationCap,
 } from "react-icons/fa";
-import backGround from "../assets/a.avif";
 
 const Services = () => {
   const navigate = useNavigate();
@@ -73,12 +72,9 @@ const Services = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.2 }}
-        className="relative py-28 px-6 bg-cover bg-center"
-        style={{ backgroundImage: `url(${backGround})` }}
+        className="py-28 px-6 bg-slate-900"
       >
-        <div className="absolute inset-0 bg-slate-900/95"></div>
-
-        <div className="relative z-10 max-w-4xl mx-auto text-center text-white">
+        <div className="max-w-4xl mx-auto text-center text-white">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Community Focused Financial Solutions
           </h2>
@@ -131,7 +127,7 @@ const ServiceBlock = ({ icon, title, description, reverse }) => (
     whileInView="show"
     viewport={{ once: true }}
     className={`grid md:grid-cols-2 gap-12 items-center ${
-      reverse ? "md:flex-row-reverse" : ""
+      reverse ? "md:[&>*:first-child]:order-2" : ""
     }`}
   >
     <div>
