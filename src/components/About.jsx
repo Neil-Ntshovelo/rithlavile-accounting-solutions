@@ -84,7 +84,7 @@ const About = () => {
 
             <ul className="space-y-3 text-gray-700">
               <li>• Registered Company (Reg No: 2014/248017/7)</li>
-              <li>• SAIBA Member (MIBA0491)</li>
+              <li>• CIBA Member (201410-6312)</li>
               <li>• SARS & CIPC Compliant</li>
               <li>• Public Sector & Municipal Experience</li>
             </ul>
