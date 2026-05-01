@@ -143,10 +143,7 @@ const Footer = () => {
                 <span className="font-semibold">QCTO:</span> 260126123602
               </li>
 
-              <li className="flex items-center gap-2">
-                <Globe size={16} className="text-cyan-700" />
-            
-              </li>
+              
             </ul>
           </div>
 
