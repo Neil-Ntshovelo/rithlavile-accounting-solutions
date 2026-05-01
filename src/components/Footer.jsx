@@ -127,11 +127,20 @@ const Footer = () => {
               </li>
 
               <li>
-                <span className="font-semibold">SAIBA:</span> MIBA0491
+                <span className="font-semibold">CIBA:</span> 201410-6312
               </li>
 
               <li>
                 <span className="font-semibold">SAIT:</span> 28753829
+              </li>
+              <li>
+                <span className="font-semibold">FASSET:</span> E070708011
+              </li>
+              <li>
+                <span className="font-semibold">LGSETA:</span> 3447-230309001
+              </li>
+              <li>
+                <span className="font-semibold">QCTO:</span> 260126123602
               </li>
 
               <li className="flex items-center gap-2">
