@@ -128,15 +128,18 @@ const ContactUs = () => {
           </div>
 
           <div className="flex gap-6 pt-6">
-            <a href="https://wa.me/27833468884">
+            <a href="https://wa.me/27833468884"
+              aria-label="Chat with us on WhatsApp">
               <FaWhatsapp className="text-green-900 text-2xl hover:scale-125 transition" />
             </a>
 
-            <a href="#">
+            <a href="#"
+              aria-label="Follow us on LinkedIn">
               <FaLinkedin className="text-blue-900 text-2xl hover:scale-125 transition" />
             </a>
 
-            <a href="#">
+            <a href="#"
+              aria-label="Follow us on Facebook">
               <FaFacebook className="text-blue-900 text-2xl hover:scale-125 transition" />
             </a>
           </div>
