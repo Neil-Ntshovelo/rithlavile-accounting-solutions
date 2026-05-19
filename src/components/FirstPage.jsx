@@ -15,7 +15,7 @@ const FirstPage = () => {
           src={cover}
           alt="Ritlhavile Accounting Solutions Cover"
           className="absolute inset-0 w-full h-full object-cover"
-          loading="lazy"
+          fetchPriority="high"
         />
         <div className="absolute inset-0 bg-black/70 backdrop-blur-sm"></div>
 
